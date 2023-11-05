@@ -94,9 +94,9 @@ nav a {
 }
 
 
+
 #Jogos{
   position: relative;
-  padding-top: 0px; 
 }
 
 .carousel {
@@ -110,6 +110,11 @@ nav a {
   border-radius: 10px;
 }
 
+#Inscrever{
+  margin-top: 400px;
+  margin-left: 500px;
+}
+
 img .carousel{
   width: 100%;
 }
@@ -119,7 +124,7 @@ img .carousel{
     margin-left: 0px;
     width: 1400px;
     border-radius: 8px;
-    margin-bottom: 250px;
+    margin-bottom: 300px;
   }
   
   .inicio h1{
@@ -153,9 +158,8 @@ img .carousel{
   }
 
   .banner{
-    
     filter:opacity(0.5);
-    margin-left: 250px;
+    margin-left: 0px;
     margin-top: 30px;
   }
 
@@ -214,7 +218,7 @@ img .carousel{
 
 #maratona{
     margin-top: 50px;
-    margin-left: 500px;
+    margin-left: 370px;
     margin-bottom: 40px;
 }
 
@@ -281,7 +285,7 @@ img .carousel{
 #Cronograma {
   margin-left: 30px;
   margin-top: 30px;
-  margin-bottom: 300px;
+  margin-bottom: 230px;
   border-radius: 10px;
   z-index: 1000;
   color: #FFFFFF;
@@ -307,6 +311,7 @@ img .carousel{
   text-align: center;
   font-size: 30px;
   font-family: "Dela Gothic One";
+  border-radius: 16px;
 }
 
 .Parceiros img{
@@ -326,9 +331,53 @@ img .carousel{
     z-index: 1000;
 }
 
-#Inscrever{
-  margin-top: 400px;
-  margin-left: 500px;
+#Fotos{
+  z-index: 1000;
+  background-image: url(../img/fotos1.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position:center;
+  font-size: 30px;
 }
 
-  
+.Fotos{
+  position: relative;
+  color: #fff;
+  text-align: center;
+  font-size: 50px;
+}
+
+.blur{
+  -webkit-box-shadow: 0px 0px 14px 0px #000000;
+    box-shadow: 0px 0px 30px 10px #00000031;
+    width: 800px;
+    height: 270px;
+    background: rgba(113, 200, 55, 0);
+    border-radius: 16px;
+    backdrop-filter: blur(5px);
+    -webkit-backdrop-filter: blur(5px);
+    position: relative;
+    z-index: 1000;
+    color: white;
+    padding: 45px;
+    display: inline-block;
+    background-color: #0000005e;
+    margin-top: 50px;
+    margin-left: 270px;
+    margin-bottom: 50px;
+}
+@media (max-width: 1080px){
+.box-maratona {
+    width: 90%;
+    position: absolute;
+    z-index: 1;
+}
+}
+
+#botãofotos{
+  margin-top:10px;
+  margin-left: 270px;
+}
+
+
+ 
