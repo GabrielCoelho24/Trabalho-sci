@@ -1,0 +1,198 @@
+@import url('https://fonts.googleapis.com/css2?family=Alkatra&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Alkatra, Satisfy, Arial, sans-serif;
+    background-color: #4e4e4e;
+    color: #ffffff;
+}
+
+header {
+    background-color: #333;
+    color: #ffffff;
+    text-align: center;
+     padding: 20px 20px 20px 20px;
+    padding: 20px;
+    border-radius: 0px 0px 10px 10px;
+}
+
+nav ul {
+    list-style: none;
+}
+
+nav li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav li:hover{
+    background-color: #000000;
+    transition: background-color 0.4s ease;
+    border-radius: 8px;
+}
+
+nav a {
+    text-decoration: none;
+    font-weight: bold;
+    color: #ffffff;
+}
+
+main {
+    padding: 20px;
+    overflow: hidden;
+}
+
+.card {
+    width: calc(33.33% - 20px);
+    height: 500px;
+    margin: 10px;
+    padding: 20px;
+    background-color: #ffffff;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    float: left;
+    color: #000000;
+}
+
+.card img {
+    max-width: 100%;
+    height: 300px;
+}
+
+.card button {
+    background-color: #696464;
+    color: #ffffff;
+    border: none;
+    padding: 8px 16px;
+    margin-top: 10px;
+    cursor: pointer; 
+    transition: background-color 0.3s ease;
+}
+
+.card button:hover {
+    background-color: #720000;
+}
+
+footer {
+    background-color: #ce0404;
+    color: #ffffff;
+    text-align: center;
+    padding: 1rem;
+}
+
+@media screen and (max-width: 768px) {
+    .card {
+        width: calc(50% - 20px);
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .card {
+        width: 100%;
+    }
+}
+
+.container {
+    width: 1200px;
+    max-width: 100%;
+    margin: 0 auto;
+    margin-top: 30px;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+}
+
+form {
+  overflow: hidden;
+}
+
+form fieldset {
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  padding: 10px;
+  margin-bottom: 10px;
+  color: #000000;
+}
+
+form legend {
+  font-weight: bold;
+  color: #777;
+}
+
+.input-container {
+    margin-bottom: 10px;
+}
+
+.input-container label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+    font-size: 14px;
+}
+
+input[type="text"],
+input[type="date"],
+input[type="number"] {
+  width: 100%;
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  color: #555;
+}
+
+.radio-group label {
+    display: inline;
+    margin-right: 10px;
+    font-weight: normal;
+  }
+  
+  .input-check {
+      display: inline-block;
+      margin-right: 10px;
+  }
+  
+  .input-check input[type="checkbox"] + label {
+      display: inline-block;
+      font-weight: normal;
+  }
+
+  textarea {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    resize: vertical;
+    height: 120px;
+  }
+  
+  select {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+
+  button {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    padding: 10px;
+    cursor: pointer;
+  }
+  
+  
+  button[type="reset"] {
+    background-color: #6c757d;
+  }
+  
+  
+  button:hover {
+    background-color: #0056b3;
+  }

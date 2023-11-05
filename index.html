@@ -3,8 +3,11 @@
     <head>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="icon" type="image/x-icon" href="img/logotipo-removebg-preview.png">
+        <meta name="author" content="Gabriel Coelho, Geovana Munzlinger, Rafaela Scolaro">
+        <meta name="keywords" content="escola, IFC, evento, Informática, Computação">
         <title>SCI</title>
-        <link rel="stylesheet" href="estilos.css">
+        <link rel="stylesheet" href="css/estilos.css">
         <link rel="stylesheet" href="https://unpkg.com/flickity@2/dist/flickity.min.css">
     </head>
     <body>
@@ -12,7 +15,7 @@
             <h1 class="efeito1">VIII-SCI</h1>
             <nav>
                 <ul>
-                    <li><a href="#"> Parceiros </a></li>
+                    <li><a href="#Parceiros"> Parceiros </a></li>
                     <li><a href="#maratona"> Maratona </a></li>
                     <li><a href="#Jogos"> Jogos Eletrônicos </a></li>
                     <li><a href="#Cronograma"> Cronograma </a></li>
@@ -25,10 +28,12 @@
         <div class="container clearfix">
             <div id="Inicio">
                 <h1 class="titulo">VIII-Semana Acadêmica da <br>Computação e Informática</h1>
+                <a href="inscrição.html"><button id="Inscrever" class="button-36">Inscreva-se</button></a>
                 <div class="carousel" data-flickity='{ "imagesLoaded": true, "percentPosition": false, "freeScroll": true, "wrapAround": true, "autoPlay": true }'>
                     <img src="img/carousel1.jpg" alt="">
                     <img src="img/carousel2.jpg" alt="">
                     <img src="img/carousel3.jpg" alt="">
+                    
                 </div>
             </div>
         </div>
@@ -83,51 +88,41 @@
                 </div>
             </div>
         </div>
+        <br>
+        <section id="Parceiros">
+        <div class="Parceiros">
+            <h1>Parceiros</h1>
+            <img class="n" src="img/casa do computador.png" alt="">
+            <img src="img/inventario.png" alt="">
+            <img class="n" src="img/centro de inovacao.png" alt="">
+        </div>
+        <br>
+        <div>
+            
+        </div>
+    </section>
     <script src="https://unpkg.com/flickity@2/dist/flickity.pkgd.min.js"></script>
     <div>
-    <footer>
-        <footer class="footer-distributed">
-
-      
-            <div class="footer-center">
-      
-              <div>
-                <i class="fa fa-map-marker"></i>
-                <p><span>444 S. Cedros Ave</span> Solana Beach, California</p>
-              </div>
-      
-              <div>
-                <i class="fa fa-phone"></i>
-                <p>+1.555.555.5555</p>
-              </div>
-      
-              <div>
-                <i class="fa fa-envelope"></i>
-                <p><a href="mailto:support@company.com">support@company.com</a></p>
-              </div>
-      
+        <footer id="footer">
+            <div class="col-4">
+                <h3>Endereço e Contato</h3>
+                <ul>
+                    <li>Rodovia SC 135, km 125</li>
+                        
+                    <li>Bairro Campo Experimental</li>
+                        
+                    <li>CEP 89564-590 - Videira - SC</li>
+                        
+                    <li>Telefone: (49) 3533-4900</li>
+                </ul>
             </div>
-      
-            <div class="footer-right">
-      
-              <p class="footer-company-about">
-                <span>About the company</span>
-                Lorem ipsum dolor sit amet, consectateur adispicing elit. Fusce euismod convallis velit, eu auctor lacus vehicula sit amet.
-              </p>
-      
-              <div class="footer-icons">
-      
-                <a href="#"><i class="fa fa-facebook"></i></a>
-                <a href="#"><i class="fa fa-twitter"></i></a>
-                <a href="#"><i class="fa fa-linkedin"></i></a>
-                <a href="#"><i class="fa fa-github"></i></a>
-      
-              </div>
-      
+            <div class="col-4">
+                <h3>Sobre</h3>
+                <p>Evento promovido pelas coordenações dos cursos de ciência da computação e 
+                   técnico em Informática do instituto Federal Catarinense - Campus Videira</p>
             </div>
-      
-          
+            <div class="col-4"> <img src="img/Logo_IFC_vertical_Videira-removebg-preview.png" alt="" width="200"></div>
         </footer>
-        </div>
+    </div>
     </body>
 </html>

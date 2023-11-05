@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <link rel="icon" type="image/x-icon" href="img/logotipo-removebg-preview.png">
+   <title>Cadastro para Semana Acadêmica</title>
+   <link rel="stylesheet" href="css/estilos2.css">
+</head>
+<body>
+   <header>
+       <h1>Cadastro Semana Acadêmica</h1>
+   </header>
+
+  <main>
+    <section class="container">
+        <form>
+            <fieldset>
+                <legend></legend>
+                <div class="input-container">
+                    <label for="nome">Nome</label>
+                    <input type="text" name="nome" id="nome" placeholder="Nome do Aluno" required autofocus>
+                </div>
+
+                <div class="input-container">
+                    <label for="matrícula">Matrícula</label>
+                    <input type="number" name="matrícula" id="matrícula" placeholder="Matrícula do Aluno" required>
+                </div>
+                
+                <div class="input-container">
+                  <label for="cpf">CPF</label>
+                  <input type="text" name="cpf" placeholder="Seu CPF" required pattern="\d{3}.\d{3}.\d{3}-\d{2}">
+                </div>
+
+                <div class="input-container">
+                    <label for="email">Email</label>
+                    <input type="email" name="email" id="tx_email" placeholder=" E-mail" required>
+                </div>
+                
+                <div class="input-container">
+                    <label for="turma">Turma</label>
+                    <select name="turma" id="turma" required>
+                        <option value="info1a">INFO 1° A</option>
+                        <option value="info1b">INFO 1° B</option>
+                        <option value="info2a">INFO 2° A</option>
+                        <option value="info2b">INFO 2° B</option>
+                        <option value="info3a">INFO 3° A</option>
+                        <option value="info3b">INFO 3° B</option>
+                    </select>
+                </div>
+
+                <div class="actions">
+                    <button type="submit">Inscrever-se</button>
+                    <button type="reset">Limpar</button>
+                </div>
+            </fieldset>
+        </form>
+    </section>
+</main>
+    <script src="js/script.js">
+        localStorage.setItem('name', 'Treinaweb');
+        localStorage['name'] = 'Treinaweb';
+    </script>
+</body>
+</html>
