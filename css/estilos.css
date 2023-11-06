@@ -121,7 +121,7 @@ img .carousel{
 
   .inicio{
     margin-top: 15px;
-    margin-left: 0px;
+    margin-left: 20px;
     width: 1400px;
     border-radius: 8px;
     margin-bottom: 300px;
@@ -218,7 +218,7 @@ img .carousel{
 
 #maratona{
     margin-top: 50px;
-    margin-left: 370px;
+    margin-left: 400px;
     margin-bottom: 40px;
 }
 
@@ -283,7 +283,7 @@ img .carousel{
 }
 
 #Cronograma {
-  margin-left: 30px;
+  margin-left: 0px;
   margin-top: 30px;
   margin-bottom: 230px;
   border-radius: 10px;
@@ -363,7 +363,7 @@ img .carousel{
     display: inline-block;
     background-color: #0000005e;
     margin-top: 50px;
-    margin-left: 270px;
+    margin-left: 320px;
     margin-bottom: 50px;
 }
 @media (max-width: 1080px){
@@ -376,7 +376,7 @@ img .carousel{
 
 #botãofotos{
   margin-top:10px;
-  margin-left: 270px;
+  margin-left: 290px;
 }
 
 
