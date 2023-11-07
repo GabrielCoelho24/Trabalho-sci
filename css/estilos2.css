@@ -8,13 +8,13 @@
 }
 
 body {
-    font-family: Alkatra, Satisfy, Arial, sans-serif;
-    background-color: #4e4e4e;
+    font-family: 'Alkatra', 'Satisfy', Arial, sans-serif;
+    background-color: rgb(67, 81, 107);
     color: #ffffff;
 }
 
 header {
-    background-color: #333; 
+    background-color: rgb(35, 46, 71);
     color: #fff; 
     text-align: center;
     padding-top: 20px; 
