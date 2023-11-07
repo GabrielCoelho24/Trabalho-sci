@@ -23,26 +23,26 @@
 
   <main>
     <section class="container">
-        <form name="inscricao">
+        <form name="inscricao" action="http://jkorpela.fi/cgi-bin/echo.cgi">
             <fieldset>
                 <legend></legend>
                 <div class="input-container">
-                    <label for="nome">Nome</label>
+                    <label id="nome">Nome</label>
                     <input type="text" name="nome" id="nome" placeholder="Nome do Aluno" required autofocus>
                 </div>
 
                 <div class="input-container">
-                    <label for="matrícula">Matrícula</label>
+                    <label id="matrícula">Matrícula</label>
                     <input type="number" name="matrícula" id="matrícula" placeholder="Matrícula do Aluno" required>
                 </div>
                 
                 <div class="input-container">
-                  <label for="cpf">CPF</label>
+                  <label id="cpf">CPF</label>
                   <input type="text" name="cpf" placeholder="Seu CPF" required pattern="\d{3}.\d{3}.\d{3}-\d{2}">
                 </div>
 
                 <div class="input-container">
-                    <label for="email">Email</label>
+                    <label id="email">Email</label>
                     <input type="email" name="email" id="tx_email" placeholder=" E-mail" required>
                 </div>
                 
